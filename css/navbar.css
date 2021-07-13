@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.menu-bar{
+background-color: aqua;
+text-align: center;
+color: white;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    color:white;
+    list-style: none;
+   
+    
+}
+.menu-bar ul li{
+   
+    padding:0px 50px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar ul li:hover{
+    background: yellow;
+    border-radius:3px ;
+}
+.submenu{
+  color: brown;
+}
+.menu-bar ul li:hover .submenu{
+    
+}
